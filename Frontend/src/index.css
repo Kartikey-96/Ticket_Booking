@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-design {
+  @apply border-solid border-2 border-primary text-primary bg-white px-4 py-1 font-semibold rounded-md hover:bg-primary hover:text-white;
+}
+.navlink {
+  @apply text-primary py-1 font-semibold;
+}
+.ticket-btn {
+  @apply bg-transparent border-white text-white border-2 px-4 py-2 rounded-sm hover:bg-white hover:text-gray-800 font-semibold;
+}
+.price-div {
+  @apply max-w-3xl m-auto flex flex-col sm:flex-row items-center sm:justify-between bg-blue-950 mt-10 mb-5 rounded-md px-5 sm:px-10;
+}
+.proceed-btn {
+  @apply w-full py-3 px-5 rounded-full font-semibold border-none text-white bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50;
+}
